@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ room.name }}</title>
+</head>
+<body>
+    <h1>{{ room.name }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Processor</th>
+                <th>Number of Apps</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for computer in computers %}
+               
